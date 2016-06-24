@@ -1,0 +1,135 @@
+body, html {
+    height: 70%;
+    background-size: 121%;
+    background-image: url(http://tutobaixakipontonet.eu5.org/img/Bg/Bg.jpg);
+}
+/* search box */
+#dev{
+  margin-top: 5%;
+  margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    background: url("images/m.jpg");
+    background-size:100%;
+    border-radius: 50px;
+}
+
+p{
+  font-size: 20px;
+  font-family: AR DESTINE;
+  color: #666699;
+  text-align: center;
+}
+/* about page text background  */
+#para{
+  background-color: black;
+}
+/* search bar  */
+#search{
+  margin-left: 20%;
+}
+/* movie information background  */
+#film{
+  background-color: black;
+}
+/* search box and forms  */
+input[type=submit] {
+        cursor:pointer; 
+        font-family: AR DESTINE;
+    padding:5px 25px; 
+    background: #3d3d5c; 
+    border:3px solid #5c5c8a;
+    margin-left: 30%;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    box-shadow: 0 0 4px rgba(0,0,0, .75);
+    color:#f3f3f3;
+    font-size:20;
+}
+/* search box forms  */
+input[type=text] {
+    width: 80%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-image: url('https://fullcontact-static.s3.amazonaws.com/images/website/icon-search.png');
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+/* carousal side colors  */
+.active {
+    background-color: #3d3d5c;
+}
+
+
+/* parallax settings  */
+.parallax {
+    background-image: url(http://www.kemecer.com/i/sheet-music-wallpapers.jpg);
+
+    height: 70%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#select, h1, h3{
+  text-align: center;
+  color: white;
+}
+#butons{
+  margin-left: 25%;
+}
+/* play pause images  */
+#box{
+  margin-top: 1%;
+  margin-left: 15%;
+    margin-right: 10%;
+    padding: 5%;
+    border-radius: 50px;
+    background-image: url("images/m.jpg");
+    background-size:100%;
+
+}
+
+#piece,#what,#break, #two, #december,#wild,#audioname{
+  color: white;
+
+}
+#poster{
+  margin-left: 40%;
+}
+
+
+ul{
+   list-style-type:none;
+   font-family: AR DESTINE;
+   color: white;
+   font-size: 20px;
+}
+#piece:hover,#what:hover,#wild:hover,#break:hover,#two:hover,#december:hover{
+  text-decoration: none;
+  cursor: pointer;
+  background-color: black;
+  color: #666699;
+}
+
+footer{
+  margin-top: 10%;
+  border: 4px solid grey;
+  background-color: black;
+  clear: both;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
